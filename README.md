@@ -20,6 +20,25 @@
 
     brew update
 
+Today :
+
+    brew --version
+
+    > Homebrew 2.0.6
+    > Homebrew/homebrew-core (git revision d033; last commit 2019-02-22)
+
+AND: 
+
+    node --version
+
+    > v10.15.3
+
+AND:
+
+    psql --version
+
+    > psql (PostgreSQL) 11.2
+
 镜像来源： [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/)
 
 
