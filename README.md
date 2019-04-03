@@ -69,3 +69,18 @@ AND:
     npm config set registry https://registry.npmjs.org/
 
 镜像来源：[淘宝 NPM 镜像](https://npm.taobao.org/)
+
+
+
+
+
+--------------------- 
+# react-native
+
+    brew install node
+
+    brew install watchman
+
+    npm install -g react-native-cli
+
+    react-native init AwesomeProject
