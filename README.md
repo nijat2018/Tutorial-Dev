@@ -93,6 +93,8 @@ AND:
 --------------------- 
 # Windows10 Webstrom - run node js server
 
+[Tutorial: CREATE node-gyp compiling environment](https://github.com/nodejs/node-gyp.git)
+
 1. Install node-gyp -> gyp can't find Python, despite Python running when you type "python"
 
 Solution: [issues #1268](https://github.com/nodejs/node-gyp/issues/1268)
@@ -101,7 +103,7 @@ Solution: [issues #1268](https://github.com/nodejs/node-gyp/issues/1268)
 
 
 
-2. node-gyp rebuild errors Duing install better-sqlite3
+2. Install better-sqlite3 -> node-gyp rebuild errors
 
     [Tutorial: windows10 npm install better-sqlite3 question](https://www.jianshu.com/p/1bed6200a443)
 
@@ -115,7 +117,7 @@ Solution: [issues #1268](https://github.com/nodejs/node-gyp/issues/1268)
 
     5： 修复v140工具集缺失错误（下载v140）
 
-注意：环境变量设置的是python3还是python2（在同一台电脑上同时可以安装Python2和Python3，并设置python3和python2）。还有检查/noprofile配置文件
+注意：环境变量设置的是python3还是python2（在同一台电脑上同时可以安装Python2和Python3，并设置python3和python2）。还有检查/noprofile配置文件ç
 
     msvs_version=2017
     python=python2.7
@@ -143,7 +145,7 @@ Solution1: [issues #170](https://github.com/JoshuaWise/better-sqlite3/issues/170
 
 Solution1: [issues stackoverflow](https://stackoverflow.com/questions/14576240/error-installing-postgres-module-in-node-js-and-2-other-node-js-questions)
 
-Solution2: [follow the instruction in Github for  node-pg-native](https://github.com/brianc/node-pg-native)
+Solution2: [follow the instruction in Github for node-pg-native](https://github.com/brianc/node-pg-native)
 
 注意： Specify Postgres bin folder in PATH variable, then don't forget to restart cmd.exe with Administrator rights
 
